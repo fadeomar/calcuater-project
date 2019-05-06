@@ -8,7 +8,7 @@ const layout = document.getElementById('layout'),
       temp.classList.add('hidden');
 let p=[],
     theNum='';
-
+ 
 numb.forEach(element => {
     element.addEventListener('click',(e)=>{
         if(e.target.classList == "operat numb") {
